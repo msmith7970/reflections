@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    you can see the text from the old version and new version side by side
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    when a bug crops up you can compare against an earlier working version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros - you have control on when to save a version at a logical point when
+    complete changes, updates or additions have been made.
+    Cons - if automatically saved then you may be typing in the middle of a
+    sentence then it may not run correctly.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think Git allows this because when you have multiple files for one project
+    then when you save you will know that all the related files are working with
+    the respective save.  As far as Google Docs, probably to save space they only
+    want to save the file individually.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    get log - to see the previous commits.  This will shows the commit ID,
+    the Author, a timestamp and a brief note to describe the changes.
+    git diff 1st_id 2nd_id will show you the difference in the two commit
+    versions along with how many lines have been added and how many deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You then could experiment to make improvements or to add new code without
+    fear of losig a working copy.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Just wanted my workspace set up initial to get started leaning and using it.
