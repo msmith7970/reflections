@@ -29,6 +29,8 @@ organized? How would branches help?
   a good known working copy of the file.
 
 How do the diagrams help you visualize the branch structure?
+  you can visually see the flow of an entire branch and see if there are any
+  unreachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
