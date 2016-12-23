@@ -7,9 +7,20 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+  The staging area are files from the working directory that contain you new
+  changes and are ready to be committed.  The working directory contains the
+  original version of your working file.  The value is that it helps you to see
+  if any changes were made and allows you the opportunity to move forward or
+  fall back with your project.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+  You can use the git diff to see if there are any changes in the working directory
+  and staging area.  You can use the git diff --staged to see the differences
+  between the staging area and the last commit.  When you do these commands
+  and you can see the changes made and ensure you only have one change between
+  commits.
+  
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
