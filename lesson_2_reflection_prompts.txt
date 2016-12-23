@@ -38,6 +38,9 @@ the diagram the way we do?
   each individual branch which those commits listed in order by time stamp.
   It is represent this way so you can see all the changes and that the branch(s)
   are merged back into the master.
-  
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+  If the merge can be done without any conflict then git will do it automaticallym
+  otherwise it will point out the unresolved differences and then let the
+  experts decide on how to proceed.
