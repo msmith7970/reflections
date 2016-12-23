@@ -20,10 +20,13 @@ change?
   between the staging area and the last commit.  When you do these commands
   and you can see the changes made and ensure you only have one change between
   commits.
-  
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+  It would great if you wanted to make an experimental change.  If you had a
+  branch then you could work on the experimental change and not interfere with
+  a good known working copy of the file.
 
 How do the diagrams help you visualize the branch structure?
 
