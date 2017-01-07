@@ -24,12 +24,16 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     so you would have a starting point if you need to do a merge with changes
-    another used has made.
+    another user has made.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    You would either have to email modified files or ftp file to and from a
+    server.  The easy would be you have control over your own file that you have,
+    but the harder would be not being able to easily find the differences in
+    a file and the really harder would not being able to collaborate with other
+    programmers on the fly in almost real time to be effective.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
